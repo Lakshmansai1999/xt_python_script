@@ -20,7 +20,7 @@ image_filename = wget.download(image_url)
 #cv2.imwrite('C:\\Users\\klakshmansai\\Desktop\\project1\\res\\image.png', image_filename)
 
 file_to_copy = "xamplify-logo.png"
-destination_directory = "/home/lucky/Desktop/MyApp/res"
+destination_directory = "/home/lucky/Desktop/MyApp/res/image.png"
 
 print('Image downloaded successfully:', image_filename)
 

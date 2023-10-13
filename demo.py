@@ -20,7 +20,7 @@ image_filename = wget.download(image_url)
 #cv2.imwrite('C:\\Users\\klakshmansai\\Desktop\\project1\\res\\image.png', image_filename)
 
 file_to_copy = "xamplify-logo.png"
-destination_directory = "/home/lucky/Desktop/MyApp/res/image.png"
+destination_directory = "/var/lib/jenkins/workspace/xt_xAmplify_APK/res"
 
 print('Image downloaded successfully:', image_filename)
 
@@ -35,7 +35,7 @@ console.log(weburl_input);
 """
 
 # Specify the file name and path
-file_name = r"/home/lucky/Desktop/MyApp/www/js/constanconfig.js"
+file_name = r"/var/lib/jenkins/workspace/xt_xAmplify_APK/www/js/constanconfig.js"
 
 # Write the JavaScript code to the file
 with open(file_name, "w") as js_file:
